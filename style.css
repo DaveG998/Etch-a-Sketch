@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 960px;
+  height: 960px;
+  background-color: lightblue;
+}
+.box {
+  flex: 1 1 auto;
+  background-color: green;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+}
+
+button {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 32px;
+  padding: 20px 20px;
+  background-color: rgb(116, 192, 218);
+  border: none;
+  margin: 20px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: lightblue;
+}
